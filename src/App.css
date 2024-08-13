@@ -161,7 +161,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 85.333px;
+  padding: 10px 30px;
   background: var(--white);
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -173,7 +173,7 @@ h2 {
   list-style: none;
   display: flex;
   align-items: flex-start;
-  gap: 35px;
+  gap: 30px;
   text-decoration: none;
 }
 .navbar--items ul > li > a {
@@ -193,6 +193,7 @@ h2 {
 
 .nav--logo {
   width: 25%;
+  border-radius: 50%;
 }
 /* Navbar Styler Ends */
 
