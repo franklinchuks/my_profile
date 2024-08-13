@@ -96,7 +96,7 @@ function Navbar() {
                             to="AboutMe"
                             className="navbar--content"
                         >
-                            About Me
+                            About
                         </Link>
                     </li>
                     <li>
@@ -107,7 +107,7 @@ function Navbar() {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="testimonial"
+                            to="testimonials"
                             className="navbar--content"
                         >
                             References

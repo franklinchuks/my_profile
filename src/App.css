@@ -173,7 +173,7 @@ h2 {
   list-style: none;
   display: flex;
   align-items: flex-start;
-  gap: 42.667px;
+  gap: 35px;
   text-decoration: none;
 }
 .navbar--items ul > li > a {
@@ -578,6 +578,7 @@ input[type="checkbox"] {
 .footer--img {
   width: 80%;
 }
+/* Footer Ends */
 
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
