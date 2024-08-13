@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 export default function AboutMe() {
     return (
         <section id="AboutMe" className="about--section">
@@ -6,14 +8,14 @@ export default function AboutMe() {
             </div>
             <div className="hero--section--content--box about--section--box">
                 <div className="hero--section--content">
-                    <p className="section--title">About</p>
                     <h1 className="skills-section-heading">About Me</h1>
-                    <p className="hero--section--description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem eos enim suscipit nulla? Quaerat illum dolore dicta non blanditiis sed deleniti exercitationem tempore, obcaecati quas, nesciunt quidem cupiditate. Optio, iusto?
+                    <p className="text-md">
+                        Data science-driven analyst with a passion for applying quantitative analysis and AI solutions to complex financial challenges. Possesses a strong foundation in finance combined with a deep understanding of quantitative analysis and machine learning. 
                     </p>
-                    <p className="hero--section--description">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum totam, iusto rem aperiam assumenda saepe consequuntur aspernatur dolorem quibusdam deserunt ipsa culpa facere laboriosam dolor veniam laborum magni, molestias magnam?
+                    <p className="text-md">
+                        Currently, I put together a strong analytical skillset, in-depth knowledge of financial markets, and proficiency in programming languages to develop quantitative strategies. My experience includes building profitable algorithmic bots for the commodities market at QNC, 3 of which were based on my own strategies. These strategies deliver consistent returns, with even the lowest performer netting at least 25% annual ROI, a Sharpe Ratio of 0.7, and a maximum drawdown of 15% (depending on lot size).
                     </p>
+                    <Link className="btn btn-outline-primary">Resume</Link>
                 </div>
             </div>
         </section>

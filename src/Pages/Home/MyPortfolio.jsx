@@ -5,11 +5,11 @@ export default function MyPortfolio() {
         <section className="portfolio--section" id="MyPortfolio">
             <div className="portfolio--container-box">
                 <div className="portfolio--container">
-                    <p className="sub-title">Recent Projects</p>
-                    <h2 className="section--heading">My Portfolio</h2>
+                    <h2 className="section--heading">Academic Degrees</h2>
                 </div>
                 <div>
-                    <button className="btn btn-github">
+                    <a href="https://github.com/franklinchuks/" target="_blank"><button className="btn btn-github">
+                        
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="32"
@@ -25,7 +25,7 @@ export default function MyPortfolio() {
                         />
                         </svg>
                         Visit My GitHub
-                    </button>
+                    </button></a>
                 </div>
             </div>
             <div className="portfolio--section--container">
@@ -37,8 +37,10 @@ export default function MyPortfolio() {
                         <div className="portfolio--section--card--content">
                             <div className="portfolio--section--title">
                                 <h3>{item.title}</h3>
+                                <br />
                                 <p className="text-md">{item.description}</p>
                             </div>
+                            <a href="https://github.com/franklinchuks/Culture_ESG_EKC_THESIS" target="_blank">
                             <p className="text-sm portfolio--link">
                                 {item.link}
                                 <svg
@@ -56,7 +58,7 @@ export default function MyPortfolio() {
                                     stroke-linejoin="round"
                                 />
                                 </svg>
-                            </p>
+                            </p></a>
                         </div>
                     </div>
                 ))}

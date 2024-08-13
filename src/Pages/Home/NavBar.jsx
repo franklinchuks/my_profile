@@ -34,7 +34,7 @@ function Navbar() {
     return (
         <nav className={`navbar ${navActive? "active": ""}`}>
             <div>
-                <img src="./img/logo.svg" alt="Logo SVG" />
+                <img src="./img/logo.png" alt="Logo SVG" className="nav--logo" />
             </div>
             <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
                 <span className="nav__hamburger__line"></span>
@@ -65,10 +65,24 @@ function Navbar() {
                             smooth={true}
                             offset={-70}
                             duration={500}
+                            to="MySkills"
+                            className="navbar--content"
+                        >
+                            Skills
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            onClick={closeMenu}
+                            activeClass="navBar--active-content"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
                             to="MyPortfolio"
                             className="navbar--content"
                         >
-                            Portfolio
+                            Certifications
                         </Link>
                     </li>
                     <li>
@@ -96,7 +110,7 @@ function Navbar() {
                             to="testimonial"
                             className="navbar--content"
                         >
-                            Testimonials
+                            References
                         </Link>
                     </li>
                 </ul>

@@ -1,78 +1,79 @@
 {
-    "skills": [
+    "MySkills": [
         {
             "id": 1,
-            "src": "./img/product-chain-1.png",
-            "title": "Front-End",
-            "description": "Lorem ipsum dolor sit amet, consecter adipiscing elit.Lorem ipsum dolor sit amet, consecter adipiscing elit.Lorem ipsum dolor sit amet, consecter adipiscing elit."
+            "src": "./img/machine-learning.png",
+            "title": "Machine Learning",
+            "description": "Developing intelligent systems that learn and adapt from data. These systems make accurate predictions and decisions."
         },
         {
             "id": 2,
-            "src": "./img/tag-1.png",
-            "title": "Back-End",
-            "description": "Lorem ipsum dolor sit amet, consecter adipiscing elit.Lorem ipsum dolor sit amet, consecter adipiscing elit.Lorem ipsum dolor sit amet, consecter adipiscing elit."
+            "src": "./img/fin-forecasting.png",
+            "title": "Financial Forecasting",
+            "description": "Utilizing statistical models and data analysis to predict future financial trends. This informs strategic decisions."
         },
         {
             "id": 3,
-            "src": "./img/feather-pen-2.png",
-            "title": "UI & UX Design",
-            "description": "Lorem ipsum dolor sit amet, consecter adipiscing elit.Lorem ipsum dolor sit amet, consecter adipiscing elit.Lorem ipsum dolor sit amet, consecter adipiscing elit."
+            "src": "./img/algo.png",
+            "title": "Algo Trading",
+            "description": "Designing and implementing automated trading strategies. These strategies optimize market performance and minimize risks."
         },
         {
             "id": 4,
-            "src": "./img/feather-pen-chain-1.png",
-            "title": "Webflow Development",
-            "description": "Lorem ipsum dolor sit amet, consecter adipiscing elit.Lorem ipsum dolor sit amet, consecter adipiscing elit.Lorem ipsum dolor sit amet, consecter adipiscing elit."
+            "src": "./img/Software-Development.png",
+            "title": "Software Development",
+            "description": "Creating robust and scalable software solutions. These solutions solve complex problems and enhance user experiences."
         }
     ],
 
     "portfolio": [
         {
             "id": 1,
-            "src": "./img/placeholder-image.png",
-            "title": "Ahuse",
-            "description": "Lorem ipsum dolor sit amet, consecter adipiscing elit.Lorem ipsum dolor sit amet, consecter adipiscing elit.Lorem ipsum dolor sit amet, consecter adipiscing elit.",
-            "link": "View In Github"
+            "src": "./img/coou.png",
+            "title": "BSc. in Banking and Finance",
+            "description": "My BSc in Banking and Finance at Chukwuemeka Odumegu Ojukwu University gave me a solid foundation in financial principles and banking operations. The program provided me with opportunities for hands-on research and internships, particularly through collaborations with local financial institutions. This experience prepared me well for a career as an analyst in banks, financial firms, and regulatory agencies.",
+            "link": "View Thesis In Github"
         },
         {
             "id": 2,
-            "src": "./img/placeholder-image-1.png",
-            "title": "Back-End",
-            "description": "Lorem ipsum dolor sit amet, consecter adipiscing elit.Lorem ipsum dolor sit amet, consecter adipiscing elit.Lorem ipsum dolor sit amet, consecter adipiscing elit.",
-            "link": "View In Github"
+            "src": "./img/delta.jpg",
+            "title": "Masters in Quantitative Economics",
+            "description": "When I pursued my Master’s in Quantitative Economics at the University of Tartu, I gained a robust foundation in contemporary economic theory and advanced econometric analysis techniques. The program provided me with opportunities for hands-on research and internships, particularly through collaborations with the Bank of Estonia. This experience prepared me well for a career as an analyst in banks, government agencies, and international organizations.",
+            "link": "View Thesis In Github"
         },
         {
             "id": 3,
-            "src": "./img/placeholder-image-2.png",
-            "title": "UI & UX Design",
-            "description": "Lorem ipsum dolor sit amet, consecter adipiscing elit.Lorem ipsum dolor sit amet, consecter adipiscing elit.Lorem ipsum dolor sit amet, consecter adipiscing elit.",
-            "link": "View In Github"
+            "src": "./img/unizik.jpeg",
+            "title": "Masters of Science in Finance",
+            "description": "Pursuing an MSc in Finance at Nnamdi Azikiwe University was to advance my already robust foundation in financial theory and advanced analytical techniques. The program provided me with opportunities for hands-on research and internships, particularly through collaborations with global financial institutions. This experience prepared me well for a career as an analyst in banks, financial firms, and regulatory agencies.",
+            "link": "View Thesis In Github"
         }
     ],
+    
     "testimonial": [
       {
         "id": "1",
         "count": "5",
-        "src": "./img/avatar-image.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Dianne Russel",
-        "author_designation": "Starbucks"
+        "src": "./img/eo.jpg",
+        "description": "Letter of Recommendation: ''Franklin hos consistently demonstroted exceptional analytical skills and a deep passion for harnessing data to drive meaningful insights. For instance, he developed a data-driven model that optimized various sections of our waste management strategies, resulting in a 15% increase in efficiency.''",
+        "author_name": "Chukwudi Chukwuemeka",
+        "author_designation": "Tipline Environmental Services, CEO"
       },
       {
         "id": "2",
         "count": "5",
-        "src": "./img/avatar-image-1.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kristin Watson",
-        "author_designation": "Louis Vuitton"
+        "src": "./img/he.png",
+        "description": "Email: ''Thank you very much for your kind words, but this thesis was really your work. My contribution was quite limited. The grade you received, the good words of the opponent that 'this was one of the best thesis to read, etc.' were all earned by you. 🙂 So, congratulations and thank you for a nice work! 🙂''",
+        "author_name": "Hakan Eratalay",
+        "author_designation": "Lecturer, thesis supervisor, Masters in Quantitative Economics"
       },
       {
         "id": "3",
         "count": "5",
-        "src": "./img/avatar-image-2.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kathryn Murphy",
-        "author_designation": "McDonald's"
+        "src": "./img/cc.jpg",
+        "description": "Letter of Promotion: ''You have consistently demonstrated exceptional software development skills and a deep passion for creating innovative solutions. Your technical expertise and problem-solving abilities make you an outstanding candidate for this promotion to the software development role.''",
+        "author_name": "Emmanuel Okoye",
+        "author_designation": "Basexcel Technologies, CEO"
       }
     ]
 }

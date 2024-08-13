@@ -15,10 +15,16 @@ h5,
 h6,
 p {
   margin: 0;
+  color: #272727;
 }
+
+a {
+  text-decoration: none;
+}
+
 :root {
   --primary: #5e3bee;
-  --heading-color: #282938;
+  --heading-color: #272727;
   --bg-shade: #f5fcff;
   --github: #e62872;
   --darkblue: #1c1e53;
@@ -105,7 +111,6 @@ h2 {
 /* Pragraphs text large medium small */
 /* Body 1 */
 .text-lg {
-  color: var(--darkblue);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -113,15 +118,14 @@ h2 {
 }
 /* Body 2 */
 .text-md {
-  color: var(--darkblue);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+  text-align: justify;
 }
 /* Body 3 */
 .text-sm {
-  color: var(--black);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -131,7 +135,6 @@ h2 {
 /* Section Titles */
 /* Skills & About Me */
 .section--title {
-  color: var(--heading-color);
   font-size: 21px;
   text-align: center;
   font-style: normal;
@@ -142,7 +145,6 @@ h2 {
 }
 /* Portfolio, Testimonial & Contact Me */
 .sub--title {
-  color: var(--heading-color);
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -154,7 +156,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 85.333px;
+  padding: 10px 85.333px;
   background: var(--white);
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -174,7 +176,6 @@ h2 {
 }
 /* Navbar Content */
 .navbar--content {
-  color: var(--darkblue);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -184,13 +185,17 @@ h2 {
 .navbar--active-content {
   color: var(--primary);
 }
+
+.nav--logo {
+  width: 25%;
+}
 /* Navbar Styler Ends */
 
 /* Hero Section Style */
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 133.333px 85.333px 133.333px;
+  padding: 233.333px 85.333px 133.333px;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
@@ -207,22 +212,22 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 21.333px;
+  color: var(--heading-color);
 }
 .hero--section--content--box > button {
   margin-top: 21.333px;
 }
 .hero--section--title {
-  color: var(--heading-color);
   font-size: 74.667px;
   font-weight: 700;
   line-height: 90px;
   align-self: stretch;
 }
 .hero--section--title--color {
-  color: var(--primary);
+  color: red;
+  /* letter-spacing: 30px; */
 }
-.hero--section-description {
-  color: var(--darkblue);
+.hero--section--description {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
@@ -282,8 +287,8 @@ h2 {
   align-items: center;
   gap: 13.3px;
   border-radius: 10.6px;
-  background: #fff;
-  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+  /* background: #fff; */
+  /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1); */
 }
 .skills--section--card--content {
   display: flex;
@@ -293,17 +298,19 @@ h2 {
   align-self: stretch;
 }
 .skills--section--title {
-  color: var(--heading-color);
   font-size: 32px;
   font-weight: 700;
   line-height: 45px;
 }
 .skills--section--description {
-  color: var(--black);
   font-size: 21.3px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+}
+
+.skills--logo {
+  width: 50%;
 }
 /* Skills Style Ends */
 
@@ -324,7 +331,7 @@ h2 {
 /* My Portfolio Starts */
 .portfolio--section {
   display: flex;
-  padding: 112px 85px;
+  padding: 120px 85px;
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
@@ -375,9 +382,7 @@ h2 {
   gap: 32px;
   align-self: stretch;
 }
-.portfolio--section--title {
-  color: var(--heading-color);
-}
+
 .portfolio--link {
   text-decoration: none;
   display: flex;
@@ -432,6 +437,11 @@ h2 {
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
+}
+
+.img-avatar {
+  border-radius: 50%;
+  width: 100px;
 }
 /* Testimonial Ends */
 .contact--section {
