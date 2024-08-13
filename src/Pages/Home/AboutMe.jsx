@@ -18,6 +18,10 @@ export default function AboutMe() {
                     <Link className="btn btn-outline-primary">Resume</Link>
                 </div>
             </div>
+
+            <div className="portfolio--container">
+                <h1 className="section--heading">Hobbies</h1>
+            </div>
         </section>
     );
 }

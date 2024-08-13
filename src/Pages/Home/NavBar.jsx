@@ -68,7 +68,7 @@ function Navbar() {
                             to="MySkills"
                             className="navbar--content"
                         >
-                            Skills
+                            Portfolio
                         </Link>
                     </li>
                     <li>

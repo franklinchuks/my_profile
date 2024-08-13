@@ -20,6 +20,10 @@ export default function MySkills() {
                     </div>
                 ))}
             </div>
+
+            <div className="portfolio--container">
+                <h2 className="skills--section--heading">My Projects</h2>
+            </div>
         </section>
     );
 }

@@ -5,7 +5,7 @@ export default function MyPortfolio() {
         <section className="portfolio--section" id="MyPortfolio">
             <div className="portfolio--container-box">
                 <div className="portfolio--container">
-                    <h1 className="section--heading">Academic Degrees</h1>
+                    <h1 className="section--heading">My Degrees</h1>
                 </div>
                 <div>
                     <a href="https://github.com/franklinchuks/" target="_blank"><button className="btn btn-github">
@@ -62,6 +62,10 @@ export default function MyPortfolio() {
                         </div>
                     </div>
                 ))}
+            </div>
+
+            <div className="portfolio--container">
+                <h1 className="section--heading">Other Certifications</h1>
             </div>
         </section>
     )
