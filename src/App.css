@@ -20,6 +20,11 @@ p {
 
 a {
   text-decoration: none;
+  cursor: pointer;
+}
+
+link {
+  cursor: pointer;
 }
 
 :root {
@@ -568,6 +573,10 @@ input[type="checkbox"] {
   font-size: 18.667px;
   font-weight: 400;
   line-height: 28px;
+}
+
+.footer--img {
+  width: 80%;
 }
 
 /* Responsive Screens */

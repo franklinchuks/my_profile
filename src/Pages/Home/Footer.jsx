@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
+          <img src="./img/logo.png" className="footer--img" alt="Logoipsum" />
         </div>
         <div className="footer--items">
           <ul>
@@ -33,7 +33,7 @@ function Footer() {
                 to="MyPortfolio"
                 className="text-md"
               >
-                Portfolio
+                Certifications
               </Link>
             </li>
             <li>
@@ -46,7 +46,7 @@ function Footer() {
                 to="AboutMe"
                 className="text-md"
               >
-                About Me
+                About
               </Link>
             </li>
             <li>
@@ -72,7 +72,7 @@ function Footer() {
                 to="testimonial"
                 className="text-md"
               >
-                Testimonials
+                References
               </Link>
             </li>
           </ul>
@@ -81,7 +81,7 @@ function Footer() {
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/Franklinchukwuemeka234"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -102,7 +102,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/frankie_19_11/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -125,7 +125,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.twitter.com/"
+                href="https://x.com/Frankie_19_11"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -146,7 +146,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/franklin-chukwuemeka-5514ab150/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
