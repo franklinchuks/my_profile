@@ -19,15 +19,6 @@ export default function ContactMe() {
                 required
               />
             </label>
-            <label htmlFor="last-name" className="contact--label">
-              <span className="text-md">Last Name</span>
-              <input
-                type="text"
-                className="contact--input text-md"
-                name="last-name"
-                id="last-name"
-              />
-            </label>
             <label htmlFor="email" className="contact--label">
               <span className="text-md">Email<span className="hero--section--title--color">*</span></span>
               <input
@@ -36,15 +27,6 @@ export default function ContactMe() {
                 name="email"
                 id="email"
                 required
-              />
-            </label>
-            <label htmlFor="phone-number" className="contact--label">
-              <span className="text-md">Phone-number</span>
-              <input
-                type="number"
-                className="contact--input text-md"
-                name="phone-number"
-                id="phone-number"
               />
             </label>
           </div>

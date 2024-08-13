@@ -29,7 +29,7 @@
     "portfolio": [
         {
             "id": 1,
-            "src": "./img/coou.png",
+            "src": "./img/coou.jpg",
             "title": "BSc. in Banking and Finance",
             "description": "My BSc in Banking and Finance at Chukwuemeka Odumegu Ojukwu University gave me a solid foundation in financial principles and banking operations. The program provided me with opportunities for hands-on research and internships, particularly through collaborations with local financial institutions. This experience prepared me well for a career as an analyst in banks, financial firms, and regulatory agencies.",
             "link": "View Thesis In Github"
@@ -43,7 +43,7 @@
         },
         {
             "id": 3,
-            "src": "./img/unizik.jpeg",
+            "src": "./img/unizik.jpg",
             "title": "Masters of Science in Finance",
             "description": "Pursuing an MSc in Finance at Nnamdi Azikiwe University was to advance my already robust foundation in financial theory and advanced analytical techniques. The program provided me with opportunities for hands-on research and internships, particularly through collaborations with global financial institutions. This experience prepared me well for a career as an analyst in banks, financial firms, and regulatory agencies.",
             "link": "View Thesis In Github"

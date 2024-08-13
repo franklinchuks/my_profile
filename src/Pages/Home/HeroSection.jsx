@@ -9,12 +9,10 @@ export default function HeroSection() {
                     <h1 className="hero--section--title">
                         <span className="hero--section--title--color">Quant</span>{" "}
                         <br />
-                        Developer
+                        Software Developer
                     </h1>
                     <p className="hero--section--description">
-                        Strong foundation in finance with expertise in quantitative analysis and machine learning.
-                        <br /> 
-                        Data science-driven developer with a passion for applying AI solutions to complex financial challenges.
+                        Strong foundation in finance with expertise in quantitative analysis and machine learning. Data science-driven developer with a passion for applying AI solutions to complex financial challenges.
                         <br /> <br /> 
                     </p>
                 </div>

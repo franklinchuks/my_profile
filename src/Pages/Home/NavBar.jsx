@@ -107,7 +107,7 @@ function Navbar() {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="testimonials"
+                            to="Testimonials"
                             className="navbar--content"
                         >
                             References
