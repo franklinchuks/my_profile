@@ -66,7 +66,7 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="testimonial"
+                to="Testimonials"
                 className="text-md"
               >
                 References

@@ -7,12 +7,12 @@ export default function HeroSection() {
                         Hey, I'm Franklin...
                     </p>
                     <h1 className="hero--section--title">
-                        <span className="hero--section--title--color">Quant</span>{" "}
+                        <span className="hero--section--title--color">Quant</span>{" "} and a
                         <br />
                         Software Developer
                     </h1>
                     <p className="hero--section--description">
-                        Strong foundation in finance with expertise in quantitative analysis and machine learning. Data science-driven developer with a passion for applying AI solutions to complex financial challenges.
+                        Strong foundation in finance with expertise in quantitative analysis and machine learning. A data science-driven developer with a passion for applying AI solutions to complex financial challenges.
                         <br /> <br /> 
                     </p>
                 </div>
