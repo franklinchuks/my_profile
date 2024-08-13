@@ -1,15 +1,15 @@
 import data from "../../data/index.json";
 
-export default function Testimonial() {
+export default function Testimonials() {
     return (
-        <section className="testimonial--section" id="testimonial">
+        <section className="testimonial--section" id="Testimonials">
             <div className="portfolio--container-box">
                 <div className="portfolio--container">
                     <h2 className="sections--heading">Employers Feedback</h2>
                 </div>
             </div>
             <div className="portfolio--section--container">
-                {data?.testimonial?.map((item, index) => (
+                {data?.Testimonials?.map((item, index) => (
                     <div key={index} className="testimonial--section--card">
                         <div className="testimonial--section--card--review">
                             {Array.from({ length: 5 }, (reviews, index) => (
