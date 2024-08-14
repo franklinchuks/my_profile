@@ -237,7 +237,9 @@ section {
   /* letter-spacing: 30px; */
 }
 .hero--section--description {
-  font-size: 24px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 30px;
   font-weight: 400;
   line-height: 36px;
 }
@@ -256,10 +258,9 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 106.667px;
+  gap: 50px;
 }
 .skills--section--heading {
-  color: var(--heading-color);
   font-size: 64px;
   font-weight: 700;
   line-height: 77px;
@@ -490,11 +491,11 @@ section {
 .contact--input {
   display: flex;
   font-family: "Roboto";
-  padding: 8px;
+  padding: 5px;
   align-items: center;
   align-self: stretch;
-  border-radius: 8px;
-  border: 1.333px solid var(--primary);
+  border-radius: 5px;
+  border: 1.333px solid #272727;
   background: var(--white);
 }
 select {
