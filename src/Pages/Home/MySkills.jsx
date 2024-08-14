@@ -17,12 +17,12 @@ export default function MySkills() {
                             <h3 className="skills--section--title">{item.title}</h3>
                             <p className="skills--section--description">{item.description}</p>
                         </div>
+
+                        <div>
+                            <a href="https://github.com/franklinchuks/" target="_blank">View Projects In GitHub</a>
+                        </div>
                     </div>
                 ))}
-            </div>
-
-            <div className="portfolio--container">
-                <h2 className="skills--section--heading">My Projects</h2>
             </div>
         </section>
     );

@@ -18,10 +18,6 @@ export default function AboutMe() {
                     <a href="./doc/cv.pdf" target="_blank"><button className="btn btn-primary">View my resume</button></a>
                 </div>
             </div>
-
-            <div className="portfolio--container">
-                <h2 className="section--heading">Hobbies</h2>
-            </div>
         </section>
     );
 }

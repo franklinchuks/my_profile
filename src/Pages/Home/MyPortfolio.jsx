@@ -32,7 +32,7 @@ export default function MyPortfolio() {
                 {data?.portfolio?.map((item, index) => (
                     <div key={index} className="portfolio--section--card">
                         <div className="portfolio--section--img">
-                            <img src={item.src} alt="Placeholder"></img>
+                            <img src={item.src} alt="Placeholder" className="portfolio--section--imgage"></img>
                         </div>
                         <div className="portfolio--section--card--content">
                             <div className="portfolio--section--title">
@@ -64,8 +64,26 @@ export default function MyPortfolio() {
                 ))}
             </div>
 
-            <div className="portfolio--container">
-                <h1 className="section--heading">Other Certifications</h1>
+            <div className="portfolio--container-box">
+                <div className="portfolio--container">
+                    <h1 className="section--heading">Other Certifications</h1>
+                </div>
+            </div>
+            <div className="portfolio--section--container">
+                {data?.Other_certificates?.map((item, index) => (
+                    <div key={index} className="portfolio--section--card">
+                        <div className="portfolio--section--img">
+                            <img src={item.src} alt="Placeholder" className="portfolio--section--othercert--img"></img>
+                        </div>
+                        <div className="portfolio--section--card--content">
+                            <div className="portfolio--section--title">
+                                <h3>{item.title}</h3>
+                                <br />
+                                <p className="text-sm">{item.description}</p>
+                            </div>
+                        </div>
+                    </div>
+                ))}
             </div>
         </section>
     )

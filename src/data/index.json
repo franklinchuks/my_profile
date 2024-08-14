@@ -50,6 +50,39 @@
         }
     ],
     
+    "Other_certificates": [
+        {
+            "id": 1,
+            "src": "./img/pm.png",
+            "title": "Project Management",
+            "description": "Novelle Professional Training Center"
+        },
+        {
+            "id": 2,
+            "src": "./img/crm.png",
+            "title": "Chartered Post-Graduate Diploma ",
+            "description": "Customer Relationship Management Institute"
+        },
+        {
+            "id": 3,
+            "src": "./img/gis.png",
+            "title": "GIS - Geographic Information Systems",
+            "description": "Tipline Environmental Services"
+        },
+        {
+            "id": 4,
+            "src": "./img/hse.png",
+            "title": "Health and Safety Certifications (HSE)",
+            "description": "Novelle Professional Training Center"
+        },
+        {
+            "id": 5,
+            "src": "./img/psk.png",
+            "title": "Product and Service Knowledge",
+            "description": "Tipline Environmental Services"
+        }
+    ],
+    
     "Testimonials": [
       {
         "id": "1",
