@@ -66,7 +66,7 @@ export default function MyPortfolio() {
 
             <div className="portfolio--container-box">
                 <div className="portfolio--container">
-                    <h1 className="section--heading">Other Certifications</h1>
+                    <h2 className="section--heading">Other Certifications</h2>
                 </div>
             </div>
             <div className="portfolio--section--container">
