@@ -12,7 +12,7 @@ export default function HeroSection() {
                         Software Developer
                     </h1>
                     <p className="hero--section--description">
-                        Strong foundation in finance with expertise in quantitative analysis and machine learning. A data science-driven developer with a passion for applying AI solutions to complex financial challenges.
+                        Strong foundation in finance with expertise in quantitative analysis and machine learning. A data science-driven developer with an affinity for applying AI solutions to complex financial challenges.
                     </p>
                 </div>
                 <a href="https://www.linkedin.com/in/franklin-chukwuemeka-5514ab150/" target="_blank"><button className="btn btn-primary">Get In Touch</button></a>

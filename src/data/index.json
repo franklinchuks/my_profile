@@ -15,7 +15,7 @@
         {
             "id": 3,
             "src": "./img/algo.png",
-            "title": "Algo Trading",
+            "title": "Algorithmic Trading",
             "description": "Designing and implementing automated trading strategies. These strategies optimize market performance and minimize risks."
         },
         {
@@ -23,6 +23,65 @@
             "src": "./img/Software-Development.png",
             "title": "Software Development",
             "description": "Creating robust and scalable software solutions. These solutions solve complex problems and enhance user experiences."
+        }
+    ],
+    
+    "DropDown": [
+        {
+        "label": "Machine Learning Projects",
+        "options": [
+            {
+            "title": "Movie Rating Genius",
+            "link": "https://www.linkedin.com/posts/franklin-chukwuemeka-5514ab150_datascience-machinelearning-movierecommendations-activity-7239618723022610432-h47p?utm_source=share&utm_medium=member_desktop"
+            }
+        ]
+        },
+        {
+        "label": "Financial Forcasting Projects",
+        "options": [
+            {
+            "title": "Gold Market Analysis: September 2024",
+            "link": "https://www.linkedin.com/posts/franklin-chukwuemeka-5514ab150_gold-investing-markettrends-activity-7240977660586205184-Se1C?utm_source=share&utm_medium=member_desktop"
+            },
+            {
+            "title": "Environmental Friendly Stocks Analysis",
+            "link": "https://www.linkedin.com/posts/franklin-chukwuemeka-5514ab150_stockmarket-timeseriesanalysis-tesla-activity-7237829401675984897-r4e3?utm_source=share&utm_medium=member_desktop"
+            },
+            {
+            "title": "National Culture vs ESG and EKC",
+            "link": "https://www.linkedin.com/posts/franklin-chukwuemeka-5514ab150_datascience-esg-sustainability-activity-7238546632319856641-EUXm?utm_source=share&utm_medium=member_desktop"
+            },
+            {
+            "title": "Why Are Banks Safe?",
+            "link": "https://www.linkedin.com/posts/franklin-chukwuemeka-5514ab150_banking-financialliteracy-riskmanagement-activity-7214889626795155456-y15p?utm_source=share&utm_medium=member_desktop"
+            },
+            {
+            "title": "Bullish Euphoria - Interesting Take",
+            "link": "https://www.linkedin.com/posts/franklin-chukwuemeka-5514ab150_dont-get-carried-away-by-bullish-markets-activity-7211996659759616000-uDSo?utm_source=share&utm_medium=member_desktop"
+            },
+            {
+            "title": "Taxes - Interesting Take",
+            "link": "https://www.linkedin.com/posts/franklin-chukwuemeka-5514ab150_taxes-never-sounded-more-interesting-activity-7209450735267106817-2uvA?utm_source=share&utm_medium=member_desktop"
+            }
+        ]
+        },
+        {
+        "label": "Algorithmic Trading Projects",
+        "options": [
+            {
+            "title": "Sydney Swing Trading Robot",
+            "link": "https://www.linkedin.com/posts/franklin-chukwuemeka-5514ab150_tradingbot-forextrading-csharp-activity-7237791696833454080-Tdna?utm_source=share&utm_medium=member_desktop"
+            }
+        ]
+        },
+        {
+        "label": "Software Development Projects",
+        "options": [
+            {
+            "title": "Automated Survey Analyzer",
+            "link": "https://www.linkedin.com/posts/franklin-chukwuemeka-5514ab150_revolutionalizing-survey-analysis-the-automated-activity-7238773117530099712-jV0r?utm_source=share&utm_medium=member_desktop"
+            }
+        ]
         }
     ],
 
