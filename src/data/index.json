@@ -28,7 +28,7 @@
     
     "DropDown": [
         {
-        "label": "Machine Learning Projects",
+        "label": "ML PROJECTS",
         "options": [
             {
             "title": "Movie Rating Genius",
@@ -41,7 +41,7 @@
         ]
         },
         {
-        "label": "Financial Forcasting Projects",
+        "label": "FORECASTS",
         "options": [
             {
             "title": "Gold Market Analysis: September 2024",
@@ -70,7 +70,7 @@
         ]
         },
         {
-        "label": "Algorithmic Trading Projects",
+        "label": "ALGORITHMS",
         "options": [
             {
             "title": "Sydney Swing Trading Robot",
@@ -87,7 +87,7 @@
         ]
         },
         {
-        "label": "Software Development Projects",
+        "label": "DEVOPS",
         "options": [
             {
             "title": "Automated Survey Analyzer",
