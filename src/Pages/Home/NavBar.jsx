@@ -68,7 +68,7 @@ function Navbar() {
                             to="MySkills"
                             className="navbar--content"
                         >
-                            Portfolio
+                            My Skills
                         </Link>
                     </li>
                     <li>
@@ -79,10 +79,10 @@ function Navbar() {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="MyPortfolio"
+                            to="MyDegrees"
                             className="navbar--content"
                         >
-                            Certifications
+                            My Degrees
                         </Link>
                     </li>
                     <li>
@@ -96,7 +96,7 @@ function Navbar() {
                             to="AboutMe"
                             className="navbar--content"
                         >
-                            About
+                            About Me
                         </Link>
                     </li>
                     <li>
@@ -107,7 +107,7 @@ function Navbar() {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="Testimonials"
+                            to="References"
                             className="navbar--content"
                         >
                             References

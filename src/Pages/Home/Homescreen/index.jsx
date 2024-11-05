@@ -1,8 +1,8 @@
 import HeroSection from "../HeroSection";
 import MySkills from "../MySkills";
+import MyDegrees from "../MyDegrees";
 import AboutMe from "../AboutMe";
-import MyPortfolio from "../MyPortfolio";
-import Testimonials from "../Testimonials";
+import References from "../References";
 import ContactMe from "../ContactMe";
 import Footer from "../Footer";
 
@@ -12,9 +12,9 @@ export default function Home () {
         <>
             <HeroSection />
             <MySkills />
-            <MyPortfolio />
+            <MyDegrees />
             <AboutMe />
-            <Testimonials />
+            <References />
             <ContactMe />
             <Footer />
         </>

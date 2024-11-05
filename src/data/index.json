@@ -33,6 +33,10 @@
             {
             "title": "Movie Rating Genius",
             "link": "https://www.linkedin.com/posts/franklin-chukwuemeka-5514ab150_datascience-machinelearning-movierecommendations-activity-7239618723022610432-h47p?utm_source=share&utm_medium=member_desktop"
+            },
+            {
+            "title": "Space Landing with SpaceX (to be uploaded soon..)",
+            "link": ""
             }
         ]
         },
@@ -71,6 +75,14 @@
             {
             "title": "Sydney Swing Trading Robot",
             "link": "https://www.linkedin.com/posts/franklin-chukwuemeka-5514ab150_tradingbot-forextrading-csharp-activity-7237791696833454080-Tdna?utm_source=share&utm_medium=member_desktop"
+            },
+            {
+            "title": "Crude Cross Strategy (to be uploaded soon..)",
+            "link": "#"
+            },
+            {
+            "title": "Golden Momentum Strategy (to be uploaded soon..)",
+            "link": "#"
             }
         ]
         },
@@ -80,31 +92,35 @@
             {
             "title": "Automated Survey Analyzer",
             "link": "https://www.linkedin.com/posts/franklin-chukwuemeka-5514ab150_revolutionalizing-survey-analysis-the-automated-activity-7238773117530099712-jV0r?utm_source=share&utm_medium=member_desktop"
+            },
+            {
+            "title": "100% Customizable Music Player (to be uploaded soon..)",
+            "link": "#"
             }
         ]
         }
     ],
 
-    "portfolio": [
+    "Degrees": [
         {
             "id": 1,
             "src": "./img/coou.jpg",
             "title": "BSc. in Banking and Finance",
-            "description": "My BSc in Banking and Finance at Chukwuemeka Odumegu Ojukwu University gave me a solid foundation in financial principles and banking operations. The program provided me with opportunities for hands-on research and internships, particularly through collaborations with local financial institutions. This experience prepared me well for a career as an analyst in banks, financial firms, and regulatory agencies.",
+            "description": "My BSc in Banking and Finance at Chukwuemeka Odumegu Ojukwu University gave me a solid foundation in financial principles and banking operations.",
             "link": "View Thesis In Github"
         },
         {
             "id": 2,
             "src": "./img/delta.jpg",
             "title": "Masters in Quantitative Economics",
-            "description": "When I pursued my Master’s in Quantitative Economics at the University of Tartu, I gained a robust foundation in contemporary economic theory and advanced econometric analysis techniques. The program provided me with opportunities for hands-on research and internships, particularly through collaborations with the Bank of Estonia. This experience prepared me well for a career as an analyst in banks, government agencies, and international organizations.",
+            "description": "When I pursued my Master’s in Quantitative Economics at the University of Tartu, I gained a robust foundation in contemporary economic theory and advanced econometric analysis techniques.",
             "link": "View Thesis In Github"
         },
         {
             "id": 3,
             "src": "./img/unizik.jpg",
             "title": "Masters of Science in Finance",
-            "description": "Pursuing an MSc in Finance at Nnamdi Azikiwe University was to advance my already robust foundation in financial theory and advanced analytical techniques. The program provided me with opportunities for hands-on research and internships, particularly through collaborations with global financial institutions. This experience prepared me well for a career as an analyst in banks, financial firms, and regulatory agencies.",
+            "description": "Pursuing an MSc in Finance at Nnamdi Azikiwe University was to advance my already robust foundation in financial theory and advanced analytical techniques.",
             "link": "View Thesis In Github"
         }
     ],
@@ -112,37 +128,43 @@
     "Other_certificates": [
         {
             "id": 1,
-            "src": "./img/pm.png",
-            "title": "Project Management",
+            "src": "./img/ibm1.jpg",
+            "title": "IBM Data Science Professional Certificate",
             "description": "Novelle Professional Training Center"
         },
         {
             "id": 2,
-            "src": "./img/crm.png",
-            "title": "Chartered Post-Graduate Diploma ",
+            "src": "./img/pm.jpg",
+            "title": "Project Management",
             "description": "Customer Relationship Management Institute"
         },
         {
             "id": 3,
-            "src": "./img/gis.png",
-            "title": "GIS - Geographic Information Systems",
+            "src": "./img/cicrm.jpg",
+            "title": "CICRM",
             "description": "Tipline Environmental Services"
         },
         {
             "id": 4,
-            "src": "./img/hse.png",
-            "title": "Health and Safety Certifications (HSE)",
-            "description": "Novelle Professional Training Center"
+            "src": "./img/da.jpg",
+            "title": "CICRM",
+            "description": "Tipline Environmental Services"
         },
         {
             "id": 5,
-            "src": "./img/psk.png",
-            "title": "Product and Service Knowledge",
+            "src": "./img/sql.jpg",
+            "title": "CICRM",
+            "description": "Tipline Environmental Services"
+        },
+        {
+            "id": 6,
+            "src": "./img/ccna.jpg",
+            "title": "CICRM",
             "description": "Tipline Environmental Services"
         }
     ],
     
-    "Testimonials": [
+    "References": [
       {
         "id": "1",
         "count": "5",

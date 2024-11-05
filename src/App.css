@@ -94,6 +94,8 @@ button, link {
 /* Global CSS Ends */
 /* Main Headings */
 
+
+
 /* Heading 1 */
 h1 {
   font-size: 56px;
@@ -205,10 +207,10 @@ section {
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 200px 20px 100px;
+  padding: 170px 20px 100px;
   align-items: center;
   justify-content: space-between;
-  gap: 32px;
+  gap: 2px;
   background-color: var(--bg-shade);
 }
 .hero--section--content-box {
@@ -228,10 +230,10 @@ section {
   margin-top: 21.333px;
 }
 .hero--section--title {
-  font-size: 74.667px;
   font-weight: 700;
   line-height: 90px;
   align-self: stretch;
+  padding-top: 5%;
 }
 .hero--section--title--color {
   color: red;
@@ -240,9 +242,9 @@ section {
 .hero--section--description {
   padding-top: 5%;
   padding-bottom: 5%;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 30px;
 }
 .hero--section--img {
   display: flex;
@@ -329,20 +331,24 @@ section {
 }
 
 .custom--select {
-  padding: 3%;
+  width: 100%;
+  padding: 4%;
   border-radius: 5px;
   border: none;
-  width: 75%;
   background: var(--orange) !important;
   font-size: 100%;
   letter-spacing: 1px;
-  font-weight: bolder;
-}
-
-.custom--select:hover {
+  font-style: italic;
+  display: inline-block;
   cursor: pointer;
+  animation: blink 1s linear infinite;
 }
 
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
 
 /* Skills Style Ends */
 
@@ -350,13 +356,20 @@ section {
 .about--section {
   display: grid;
   align-items: center;
-  gap: 114.6px;
+  gap: 14.6px;
   grid-template-columns: repeat(2, 1fr);
+  margin: 50px;
 }
 .about--section--img > img {
-  width: 100%;
-  height: 100%;
+  width: 60%;
+  opacity: 70%;
+  margin: 30px;
 }
+
+.about--section--img > img:hover {
+  opacity: 100%;
+}
+
 /* About Us Ends */
 
 /* My Portfolio Starts */
@@ -394,10 +407,25 @@ section {
   min-height: 250px;
 }
 
-.portfolio--section--othercert--img {
-  width: 40%;
-  margin: 20px;
-  /* max-height: 170px; */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  text-align: center;
+}
+
+.grid-item {
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.55);
+  text-align: center;
+  transition: transform 0.9s, z-index 0.5s;
+  width: 90%;
+  margin-top: 30px;
+}
+
+.grid-item:hover {
+  transform: scale(1.1);
+  z-index: 10;
+  top: 50%;
+  left: 50%;
 }
 
 .portfolio--section--card {
@@ -482,6 +510,41 @@ section {
 }
 /* Testimonial Ends */
 /* Contacts Starts */
+.business-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 80%;
+  text-align: center;
+}
+
+.card-header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.card-header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #777;
+}
+
+.card-body p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+
 .contact--section {
   display: flex;
   flex-direction: column;
@@ -682,14 +745,14 @@ input[type="checkbox"] {
   .testimonial--section,
   .contact--section,
   .footer--container {
-    gap: 20px;
+    gap: 40px;
     padding-top: 70px;
     padding-bottom: 70px;
   }
   .about--section {
-    gap: 20px;
     padding-top: 0;
     padding-bottom: 0;
+    text-align: center;
   }
   .testimonial--section--card {
     padding: 25px;

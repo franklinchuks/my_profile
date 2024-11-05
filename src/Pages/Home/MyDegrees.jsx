@@ -1,8 +1,8 @@
 import data from "../../data/index.json";
 
-export default function MyPortfolio() {
+export default function MyDegrees() {
     return (
-        <section className="portfolio--section" id="MyPortfolio">
+        <section className="portfolio--section" id="MyDegrees">
             <div className="portfolio--container-box">
                 <div className="portfolio--container">
                     <h1 className="section--heading">My Degrees</h1>
@@ -29,7 +29,7 @@ export default function MyPortfolio() {
                 </div>
             </div>
             <div className="portfolio--section--container">
-                {data?.portfolio?.map((item, index) => (
+                {data?.Degrees?.map((item, index) => (
                     <div key={index} className="portfolio--section--card">
                         <div className="portfolio--section--img">
                             <img src={item.src} alt="Placeholder" className="portfolio--section--imgage"></img>
@@ -66,25 +66,16 @@ export default function MyPortfolio() {
 
             <div className="portfolio--container-box">
                 <div className="portfolio--container">
-                    <h2 className="section--heading">Other Certifications</h2>
+                    <h2 className="skills-section-heading">Certifications</h2>
                 </div>
             </div>
-            <div className="portfolio--section--container">
-                {data?.Other_certificates?.map((item, index) => (
-                    <div key={index} className="portfolio--section--card">
-                        <div className="portfolio--section--img">
-                            <img src={item.src} alt="Placeholder" className="portfolio--section--othercert--img"></img>
+                <div className="grid-container">
+                    {data?.Other_certificates?.map((item, index) => (
+                        <div key={index}>
+                            <img src={item.src} alt="Placeholder" className="grid-item"></img>
                         </div>
-                        <div className="portfolio--section--card--content">
-                            <div className="portfolio--section--title">
-                                <h3>{item.title}</h3>
-                                <br />
-                                <p className="text-sm">{item.description}</p>
-                            </div>
-                        </div>
-                    </div>
-                ))}
-            </div>
+                    ))}
+                </div>
         </section>
     )
 }
