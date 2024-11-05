@@ -28,7 +28,7 @@
     
     "DropDown": [
         {
-        "label": "ML PROJECTS",
+        "label": "***ML PROJECTS***",
         "options": [
             {
             "title": "Movie Rating Genius",
@@ -41,7 +41,7 @@
         ]
         },
         {
-        "label": "FORECASTS",
+        "label": "***FORECASTS***",
         "options": [
             {
             "title": "Gold Market Analysis: September 2024",
@@ -70,7 +70,7 @@
         ]
         },
         {
-        "label": "ALGORITHMS",
+        "label": "***ALGORITHMS***",
         "options": [
             {
             "title": "Sydney Swing Trading Robot",
@@ -87,7 +87,7 @@
         ]
         },
         {
-        "label": "DEVOPS",
+        "label": "***DEVOPS***",
         "options": [
             {
             "title": "Automated Survey Analyzer",
