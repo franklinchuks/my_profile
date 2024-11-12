@@ -28,6 +28,14 @@ button, link {
   cursor: pointer;
 }
 
+.horizontal_line {
+  width: 90%;
+  height: 2px;
+  background-color: #FFA500;
+  border: none;
+  margin: 10px auto;
+}
+
 :root {
   --primary: #5e3bee;
   --heading-color: #272727;

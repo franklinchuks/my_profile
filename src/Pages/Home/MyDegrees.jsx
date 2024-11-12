@@ -64,11 +64,6 @@ export default function MyDegrees() {
                 ))}
             </div>
 
-            <div className="portfolio--container-box">
-                <div className="portfolio--container">
-                    <h2 className="skills-section-heading">Certifications</h2>
-                </div>
-            </div>
                 <div className="grid-container">
                     {data?.Other_certificates?.map((item, index) => (
                         <div key={index}>

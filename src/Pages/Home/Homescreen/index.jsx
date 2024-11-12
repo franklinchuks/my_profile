@@ -12,7 +12,9 @@ export default function Home () {
         <>
             <HeroSection />
             <MySkills />
+            <hr className="horizontal_line"></hr>
             <MyDegrees />
+            <hr className="horizontal_line"></hr>
             <AboutMe />
             <References />
             <ContactMe />
