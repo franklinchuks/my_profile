@@ -68,7 +68,7 @@ function Navbar() {
                             to="MySkills"
                             className="navbar--content"
                         >
-                            My Skills
+                            Skills
                         </Link>
                     </li>
                     <li>
@@ -82,7 +82,7 @@ function Navbar() {
                             to="MyDegrees"
                             className="navbar--content"
                         >
-                            My Degrees
+                            Degrees
                         </Link>
                     </li>
                     <li>
@@ -96,7 +96,7 @@ function Navbar() {
                             to="AboutMe"
                             className="navbar--content"
                         >
-                            About Me
+                            About
                         </Link>
                     </li>
                     <li>
