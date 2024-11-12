@@ -12,7 +12,7 @@ export default function AboutMe() {
                         <br></br>
                         In addition to my technical expertise, I am dedicated to continuous learning and staying updated with the latest advancements in quantitative finance and software development. Whether it’s developing high-performance computing solutions or integrating machine learning techniques, I am always exploring new ways to push the boundaries of what’s possible in the financial industry.
                     </p>
-                    <a href="./doc/cv.pdf" target="_blank"><button className="btn btn-primary">View my resume</button></a>
+                    <a href="https://docs.google.com/document/d/1GsfM_D8jzjTAJytNvMDvhbnPKCxHquPQB-NmC4YawoE/edit?usp=sharing" target="_blank"><button className="btn btn-primary">View my resume</button></a>
                 </div>
             </div>
             <div className="about--section--img">
