@@ -11,13 +11,17 @@ export default function Home () {
     return(
         <>
             <HeroSection />
+            <hr className="horizontal_line"></hr>
             <MySkills />
             <hr className="horizontal_line"></hr>
             <MyDegrees />
             <hr className="horizontal_line"></hr>
             <AboutMe />
+            <hr className="horizontal_line"></hr>
             <References />
+            <hr className="horizontal_line"></hr>
             <ContactMe />
+            <hr className="horizontal_line"></hr>
             <Footer />
         </>
     )
