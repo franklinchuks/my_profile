@@ -239,21 +239,25 @@ section {
   margin-top: 21.333px;
 }
 .hero--section--title {
-  font-weight: 700;
-  line-height: 90px;
-  align-self: stretch;
+  align-self: auto;
   padding-top: 5%;
+}
+.hero--section--title--small {
+  font-weight: lighter;
+  padding-top: 2%;
+  padding-bottom: 7%;
+  /* font-style: italic; */
 }
 .hero--section--title--color {
   color: red;
   /* letter-spacing: 30px; */
 }
 .hero--section--description {
-  padding-top: 5%;
+  padding-top: 8%;
   padding-bottom: 5%;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
+  font-size: 15px;
+  /* font-weight: 400; */
+  /* line-height: 30px; */
 }
 .hero--section--img {
   display: flex;
