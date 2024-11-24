@@ -7,7 +7,7 @@ export default function HeroSection() {
                         <span className="hero--section--title--color">Hello</span>,<br></br>I'm Franklin.
                     </h1>
                     <h2 className="hero--section--title--small">
-                        I use quantitative and programming skills to transform data into actionable insights.
+                        I utilize quantitative and programming skills to transform data into actionable insights.
                     </h2>
                 </div>
                 <a href="https://www.linkedin.com/in/franklin-chukwuemeka-5514ab150/" target="_blank"><button className="btn btn-primary">Get In Touch</button>
