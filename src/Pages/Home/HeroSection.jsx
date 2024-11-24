@@ -15,7 +15,7 @@ export default function HeroSection() {
                 <a href="https://www.linkedin.com/in/franklin-chukwuemeka-5514ab150/" target="_blank"><button className="btn btn-primary">Get In Touch</button></a>
             </div>
             <div className="hero--section--img">
-                <img src="./img/about-me.jpeg" alt="Hero Section" />
+                <img src="./img/wallpaper.jpg" alt="Hero Section" />
             </div>
         </section>
     );
