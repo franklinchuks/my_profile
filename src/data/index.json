@@ -112,14 +112,14 @@
         {
             "id": 2,
             "src": "./img/delta.jpg",
-            "title": "Masters of Arts in Quantitative Economics",
+            "title": "MA. in Quantitative Economics",
             "description": "When I pursued my Master’s in Quantitative Economics at the University of Tartu, I gained a robust foundation in contemporary economic theory and advanced econometric analysis techniques.",
             "link": "View Thesis In Github"
         },
         {
             "id": 3,
             "src": "./img/unh.jpg",
-            "title": "Masters of Science in Financial Mathematics",
+            "title": "MSc. in Financial Mathematics",
             "description": "Pursuing an MSc in Financial Mathematics at the University of New Haven was to advance my already robust foundation in financial theory and advanced analytical techniques.",
             "link": "View Thesis In Github"
         }
