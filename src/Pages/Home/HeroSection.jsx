@@ -13,7 +13,7 @@ export default function HeroSection() {
                 <a href="https://www.linkedin.com/in/franklin-chukwuemeka-5514ab150/" target="_blank"><button className="btn btn-primary">Get In Touch</button>
                 </a>
                     <p className="hero--section--description">
-                        With a robust background in applied mathematics, statistical modeling, and computer programming, I specialize in developing quantitative models and algorithms that enhance strategic decision-making and optimize operational strategies.
+                        With a robust background in applied mathematics, predictive modeling, and computer programming, I specialize in developing quantitative models and algorithms that enhance strategic decision-making and optimize operational strategies.
                     </p>
             </div>
             <div className="hero--section--img">

@@ -4,7 +4,7 @@ export default function ContactMe() {
         <div class="business-card">
             <div class="card-header">
                 <h1>Franklin I. Chukwuemeka</h1>
-                <h2>Quantitative Analyst | Software Developer</h2>
+                <h2>Quantitative Analyst</h2>
             </div>
             <div class="card-body">
                 <p>Email: franklinchukwuemeka234@gmail.com</p>
