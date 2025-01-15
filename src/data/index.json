@@ -106,22 +106,22 @@
             "id": 1,
             "src": "./img/coou.jpg",
             "title": "BSc. in Banking and Finance",
-            "description": "Starting from my decision to do a BSc in Banking and Finance at Chukwuemeka Odumegu Ojukwu University despite being in love with Physics, I have developed an analytical mindset and an appreciation for the balance between risk and reward. This journey has been transformative, reshaping my worldview.",
+            "description": "Starting from my decision to do a BSc in Finance, despite being in love with Physics, I have developed an analytical mindset and an appreciation for the balance between risk and reward. This journey has been transformative, reshaping my worldview.",
             "link": "View Thesis In Github"
         },
         {
             "id": 2,
             "src": "./img/delta.jpg",
             "title": "MA. in Quantitative Economics",
-            "description": "When I pursued my Master’s in Quantitative Economics at the University of Tartu, Pursuing an MA in Quantitative Economics at the University of Tartu was to advance my already robust foundation in contemporary economic theory and advanced econometric analysis techniques.",
+            "description": "Pursuing an MA in Quantitative Economics at the University of Tartu was to advance my already robust foundation in contemporary economic theory and advanced econometric analysis techniques.",
             "link": "View Thesis In Github"
         },
         {
             "id": 3,
             "src": "./img/unh.jpg",
             "title": "MSc. in Financial Mathematics",
-            "description": "Growing up in a community where short-term financial gains often overshadowed long-term planning, I witnessed firsthand the limitations and risks associated with a lack of foresight. Witnessing families struggle to save for retirement or cope with unforeseen circumstances, I became acutely aware of the need for a more sustainable approach to financial management.",
-            "link": "View Thesis In Github"
+            "description": "Growing up in a community where short-term financial gains often overshadowed long-term planning, I witnessed families struggle to save for retirement or cope with unforeseen circumstances. I became acutely aware of the need for a more sustainable approach to financial management.",
+            "link": "Thesis (in view, 2026): Bridging the gap between Sustainability and Profitability"
         }
     ],
     
